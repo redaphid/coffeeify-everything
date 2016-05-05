@@ -1,0 +1,32 @@
+{
+  "name": "coffeeify-everything",
+  "version": "1.0.0",
+  "description": "Recursively replace all js files with their js2coffee'd version. Very destructive and unreliable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redaphid/coffeeify-everything.git"
+  },
+  "keywords": [
+    "coffee-script",
+    "coffeescript",
+    "js2coffee"
+  ],
+  "author": "redaphid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redaphid/coffeeify-everything/issues"
+  },
+  "homepage": "https://github.com/redaphid/coffeeify-everything#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "debug-stream": "^3.0.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-gitignore": "^0.1.0",
+    "orchestrator": "^0.3.7"
+  }
+}
