@@ -27,6 +27,7 @@
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-gitignore": "^0.1.0",
+    "gulp-javascript-to-coffeescript": "^1.0.0",
     "orchestrator": "^0.3.7"
   }
 }
